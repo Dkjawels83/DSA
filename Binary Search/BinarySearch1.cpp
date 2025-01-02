@@ -24,7 +24,6 @@ int binarySearch( int arr[],int size,int tar)
 
 int main()
 {    
-   while(1){
    
 
 	int size;
@@ -49,5 +48,4 @@ int main()
 		cout<<"target is not found"<<endl;
 	}
 	return 0;
-}
 }
