@@ -10,7 +10,8 @@ int MountainPeakIndex(int arr[],int n)
 		{
 			return mid;
 		}
-		else if(arr[mid+1]>arr[mid])
+		else if(arr[mid+
+		1]>arr[mid])
 		{ 
 		st=mid+1;
 		}
