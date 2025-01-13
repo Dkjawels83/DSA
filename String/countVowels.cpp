@@ -8,7 +8,7 @@ void countVowelsAndConsonants(const string& str, int& vowels, int& consonants) {
     consonants = 0;
     for (size_t i = 0; i < str.length(); ++i) { // Use size_t for indexing
         char ch = str[i];
-        if (isalpha(ch)) { // Check if the character is a letter
+        if (isalpha(ch)) { 
             char lowerCh = tolower(ch); // Convert to lowercase for easier comparison
             if (lowerCh == 'a' || lowerCh == 'e' || lowerCh == 'i' || lowerCh == 'o' || lowerCh == 'u') {
                 ++vowels;
@@ -22,7 +22,7 @@ void countVowelsAndConsonants(const string& str, int& vowels, int& consonants) {
 int main() {
     string input;
     cout << "Enter a string: ";
-    getline(cin, input); // Read the entire input line
+    getline(cin, input); 
 
     int vowels = 0, consonants = 0;
     countVowelsAndConsonants(input, vowels, consonants);
