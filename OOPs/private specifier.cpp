@@ -34,12 +34,11 @@ class employee{
 	}
 	void getage()
 	{
-		cout<<
-		a<<endl;
+		cout<<age<<endl;
 	}
 	void gettown()
 	{
-		cout<<vill<<endl;
+		cout<<town<<endl;
 	}
 	
 };
